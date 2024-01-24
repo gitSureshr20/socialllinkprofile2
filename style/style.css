@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(0, 0%, 8%);
+}
+.card{
+    width: 450px;
+    height: 600px;
+    background: hsl(0, 0%, 12%);
+    border-radius: 10px; 
+    
+}
+.img{
+    width: 100%;
+    /* background-color: red; */
+}
+img{
+    margin: 1rem auto;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 11rem;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+.location{
+    color:hsl(75, 94%, 57%);
+    text-align: center;
+}
+h4{
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+p{
+    text-align: center;
+    padding: 8px;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background: hsl(0, 0%, 20%);
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+    .card{
+        width: 450px;
+        height: 600px;
+        background: hsl(0, 0%, 12%);
+        border-radius: 10px; 
+        
+    }
+    .img{
+        width: 100%;
+        margin: auto;
+    }
+    img{
+        
+        /* width: 60px; */
+        flex-basis: 50%;
+        border-radius: 50%;
+        margin-left: 11rem;
+        cursor: pointer;
+    }
+    h1{
+        text-align: center;
+        color: #fff;
+        font-weight: 400;
+        font-size: 21px;
+    }
+    .location{
+        color:hsl(75, 94%, 57%);
+        text-align: center;
+        font-size: 15px;
+    }
+    h4{
+        text-align: center;
+        color: #fff;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    p{
+        text-align: center;
+        padding: 10px;
+        font-size: 15px;
+        margin-top: 1.5rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        background: hsl(0, 0%, 20%);
+        color: #fff;
+        border-radius: 10px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+  }
